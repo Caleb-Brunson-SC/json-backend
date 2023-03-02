@@ -8,67 +8,55 @@
             {
                 "id": "d6577ddf-067a-4d1c-a4d1-c50222ae6a71",
                 "grades": [69, 69.9, 69.7],
-                "currentTopic": "Topic 4: Loops"
+                "currentTopicNumber": 1
             },
             {
                 "id": "6b40acbe-c101-4701-8123-343a071c460c",
                 "grades": [42.0, 100],
-                "currentTopic": "Topic 3: Conditionals"
+                "currentTopicNumber": 1
             }
         ],
         "topics": [
             {
-
-            }
-        ],
-        "lessons": [
-            {
-
-            }
-        ],
-        "quizzes": [
-            {
-                "topic": "Topic 4: Loops",
-                "title": "Loops Assessment",
-                "description": "For Loops, While Loops, and Do-While Loops",
-                "questions": [
+                "number": 1,
+                "title": "Topic 1: Loops",
+                "description": "How to use different loops.",
+                "lessons": [
                     {
                         "number": 1,
-                        "question": "When would you use a For Loop?",
-                        "choices": [
-                            {
-                                "letter": "A",
-                                "text": "always"
-                            },
-                            {
-                                "letter": "B",
-                                "text": "whenver"
-                            },
-                            {
-                                "letter": "C",
-                                "text": "never"
-                            }
-                        ],
-                        "correctAnswer": "B"
+                        "title": "For Loops Lesson",
+                        "content": "..."
                     },
                     {
                         "number": 2,
-                        "question": "When would you use a While Loop?",
-                        "choices": [
+                        "title": "While Loops Lesson",
+                        "content": "..."
+                    },
+                    {
+                        "number": 3,
+                        "title": "Do-While Loops Lesson",
+                        "content": "..."
+                    }
+                ],
+                "quizzes": [
+                    {
+                        "topicNumber": 1,
+                        "title": "Loops Assessment",
+                        "description": "For Loops, While Loops, and Do-While Loops",
+                        "questions": [
                             {
-                                "letter": "A",
-                                "text": "always"
+                                "number": 1,
+                                "question": "When would you use a For Loop?",
+                                "choices": ["A) always", "B) whenever", "C) never"],
+                                "correctAnswer": "B"
                             },
                             {
-                                "letter": "B",
-                                "text": "whenver"
-                            },
-                            {
-                                "letter": "C",
-                                "text": "never"
+                                "number": 2,
+                                "question": "When would you use a While Loop?",
+                                "choices": ["A) always", "B) whenever", "C) never"],
+                                "correctAnswer": "C"
                             }
-                        ],
-                        "correctAnswer": "C"
+                        ]
                     }
                 ]
             }
