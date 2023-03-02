@@ -1,0 +1,77 @@
+[
+    {
+        "id": "8862aeca-0bc5-43ce-b584-4064667c9922",
+        "title": "Python",
+        "description": "The world's most versitle language",
+        "teacherID": "8d8595fa-ad78-42a3-bfa8-4b57b7d68740",
+        "students": [
+            {
+                "id": "d6577ddf-067a-4d1c-a4d1-c50222ae6a71",
+                "grades": [69, 69.9, 69.7],
+                "currentTopic": "Topic 4: Loops"
+            },
+            {
+                "id": "6b40acbe-c101-4701-8123-343a071c460c",
+                "grades": [42.0, 100],
+                "currentTopic": "Topic 3: Conditionals"
+            }
+        ],
+        "topics": [
+            {
+
+            }
+        ],
+        "lessons": [
+            {
+
+            }
+        ],
+        "quizzes": [
+            {
+                "topic": "Topic 4: Loops",
+                "title": "Loops Assessment",
+                "description": "For Loops, While Loops, and Do-While Loops",
+                "questions": [
+                    {
+                        "number": 1,
+                        "question": "When would you use a For Loop?",
+                        "choices": [
+                            {
+                                "letter": "A",
+                                "text": "always"
+                            },
+                            {
+                                "letter": "B",
+                                "text": "whenver"
+                            },
+                            {
+                                "letter": "C",
+                                "text": "never"
+                            }
+                        ],
+                        "correctAnswer": "B"
+                    },
+                    {
+                        "number": 2,
+                        "question": "When would you use a While Loop?",
+                        "choices": [
+                            {
+                                "letter": "A",
+                                "text": "always"
+                            },
+                            {
+                                "letter": "B",
+                                "text": "whenver"
+                            },
+                            {
+                                "letter": "C",
+                                "text": "never"
+                            }
+                        ],
+                        "correctAnswer": "C"
+                    }
+                ]
+            }
+        ]
+    }
+]
