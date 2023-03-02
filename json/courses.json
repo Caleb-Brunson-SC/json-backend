@@ -38,27 +38,24 @@
                         "content": "..."
                     }
                 ],
-                "quizzes": [
-                    {
-                        "topicNumber": 1,
-                        "title": "Loops Assessment",
-                        "description": "For Loops, While Loops, and Do-While Loops",
-                        "questions": [
-                            {
-                                "number": 1,
-                                "question": "When would you use a For Loop?",
-                                "choices": ["A) always", "B) whenever", "C) never"],
-                                "correctAnswer": "B"
-                            },
-                            {
-                                "number": 2,
-                                "question": "When would you use a While Loop?",
-                                "choices": ["A) always", "B) whenever", "C) never"],
-                                "correctAnswer": "C"
-                            }
-                        ]
-                    }
-                ]
+                "quiz": {
+                    "title": "Loops Assessment",
+                    "description": "For Loops, While Loops, and Do-While Loops",
+                    "questions": [
+                        {
+                            "number": 1,
+                            "question": "When would you use a For Loop?",
+                            "choices": ["A) always", "B) whenever", "C) never"],
+                            "correctAnswer": "B"
+                        },
+                        {
+                            "number": 2,
+                            "question": "When would you use a While Loop?",
+                            "choices": ["A) always", "B) whenever", "C) never"],
+                            "correctAnswer": "C"
+                        }
+                    ]
+                }
             }
         ]
     }
